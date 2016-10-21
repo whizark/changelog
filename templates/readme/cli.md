@@ -56,6 +56,7 @@ Options:
   -m, --markdown         Output as Github-flavored Markdown (file default)
   -j, --json             Output as JSON
   -d, --debug            Enable debugging
+  -t, --token STRING     GitHub token for private repos
   -h, --help             Display help and usage details
 ```
 
