@@ -69,6 +69,7 @@ Options:
   -m, --markdown         Output as Github-flavored Markdown (file default)
   -j, --json             Output as JSON
   -d, --debug            Enable debugging
+  -t, --token STRING     GitHub token for private repos
   -h, --help             Display help and usage details
 ```
 
@@ -83,10 +84,11 @@ Options:
 
 Changelog can be easily integrated into other tools.
 
-#### `changelog.generate(name, versions)
+#### `changelog.generate(name, versions, options)
 
 * `name` string, _required_ NPM module name from registry.
 * `versions` integer or semver, _optional_ Number of versions, or the semver version to show.
+* `options.token` string, GitHub token for private repos.
 
 
 ````js
